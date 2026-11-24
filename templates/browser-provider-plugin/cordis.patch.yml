@@ -1,0 +1,3 @@
+plugins:
+  ds-bot-browser-provider-example:
+    ~ds-bot-browser-provider-example: {}

@@ -1,0 +1,3 @@
+plugins:
+  ds-bot-plugin-example:
+    ~ds-bot-plugin-example: {}

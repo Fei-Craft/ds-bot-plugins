@@ -1,0 +1,17 @@
+{
+  "name": "ds-bot-browser-provider-example",
+  "version": "0.1.0",
+  "description": "Starter template for a hot-swappable DS Bot browser plugin (slot: browser)",
+  "type": "module",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "ds-bot": ">=0.4.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

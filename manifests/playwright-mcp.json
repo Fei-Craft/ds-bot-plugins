@@ -1,0 +1,28 @@
+{
+  "id": "mcp:playwright-mcp",
+  "name": "Playwright MCP",
+  "description": "Official Playwright MCP server (@playwright/mcp) for structured accessibility-tree browser control.",
+  "author": "Microsoft",
+  "category": "browser",
+  "slot": "browser",
+  "kind": "mcp",
+  "featured": true,
+  "verified": true,
+  "tags": ["browser", "playwright", "mcp"],
+  "toolPrefixes": ["browser_"],
+  "homepage": "https://github.com/microsoft/playwright-mcp",
+  "repository": "https://github.com/microsoft/playwright-mcp",
+  "install": {
+    "mcp": {
+      "transport": "stdio",
+      "packageSpec": "@playwright/mcp@latest",
+      "args": []
+    }
+  },
+  "locales": {
+    "zh": {
+      "name": "Playwright MCP",
+      "description": "官方 Playwright MCP 服务（@playwright/mcp），基于可访问性树操控浏览器。"
+    }
+  }
+}

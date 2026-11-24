@@ -1,0 +1,17 @@
+name: Validate Plugin Registry
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Validate plugin manifests and registry.json
+        run: npm run validate

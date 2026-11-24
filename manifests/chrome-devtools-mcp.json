@@ -1,0 +1,28 @@
+{
+  "id": "mcp:chrome-devtools-mcp",
+  "name": "Chrome DevTools MCP",
+  "description": "Chrome DevTools Protocol MCP server (chrome-devtools-mcp) for browser inspection, debugging, and automation.",
+  "author": "ChromeDevTools",
+  "category": "browser",
+  "slot": "browser",
+  "kind": "mcp",
+  "featured": true,
+  "verified": true,
+  "tags": ["browser", "chrome", "devtools", "mcp"],
+  "toolPrefixes": ["chrome_", "devtools_", "browser_"],
+  "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "repository": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "install": {
+    "mcp": {
+      "transport": "stdio",
+      "packageSpec": "chrome-devtools-mcp@latest",
+      "args": []
+    }
+  },
+  "locales": {
+    "zh": {
+      "name": "Chrome DevTools MCP",
+      "description": "基于 Chrome DevTools 协议的浏览器 MCP 服务，支持调试、性能分析与页面操控。"
+    }
+  }
+}

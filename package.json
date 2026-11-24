@@ -1,0 +1,12 @@
+{
+  "name": "ds-bot-plugins",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Official plugin registry, manifests, and starter templates for DS Bot",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "node scripts/build-registry.mjs",
+    "validate": "node scripts/build-registry.mjs --check"
+  }
+}
