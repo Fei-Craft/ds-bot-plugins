@@ -1,5 +1,5 @@
 // Starter template for a replaceable browser plugin registered in DS Bot's `browser` slot.
-// Users can hot-swap between this provider, built-in Playwright backends, Ego Lite, or MCP browsers.
+// Users can hot-swap between this provider, built-in Playwright backends, or MCP browsers.
 export const name = 'ds-bot-browser-provider-example'
 export const inject = { optional: ['dsBotBrowser'] }
 

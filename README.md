@@ -10,9 +10,8 @@ DS Bot's **Plugins** panel reads [`registry.json`](registry.json) from this repo
 
 | Plugin | Kind | Slot | Description |
 |---|---|---|---|
-| **Ego Lite Browser** (`dsh:dsh-ego-browser`) | DSH plugin | `browser` | External DSH browser automation plugin powered by Ego Lite (human + AI shared Chromium). |
-| **Playwright MCP** (`mcp:playwright-mcp`) | MCP server | `browser` | Official Playwright MCP server (`@playwright/mcp`) for structured accessibility-tree browsing. |
-| **Chrome DevTools MCP** (`mcp:chrome-devtools-mcp`) | MCP server | `browser` | Chrome DevTools Protocol MCP server (`chrome-devtools-mcp`) for inspection and automation. |
+| **Playwright MCP** (`mcp:playwright-mcp`) | MCP server | `browser` | Official Playwright MCP server (`@playwright/mcp`). Runs in a separate browser window outside DS Bot's sidebar. |
+| **Chrome DevTools MCP** (`mcp:chrome-devtools-mcp`) | MCP server | `browser` | Chrome DevTools Protocol MCP server (`chrome-devtools-mcp`). Controls an external Chrome window outside DS Bot's sidebar. |
 
 *(DS Bot also ships four built-in replaceable browser backends out of the box: `builtin:readonly`, `builtin:refs`, `builtin:script`, and `builtin:task`.)*
 

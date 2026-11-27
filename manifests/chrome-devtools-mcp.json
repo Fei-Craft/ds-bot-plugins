@@ -1,7 +1,7 @@
 {
   "id": "mcp:chrome-devtools-mcp",
   "name": "Chrome DevTools MCP",
-  "description": "Chrome DevTools Protocol MCP server (chrome-devtools-mcp) for browser inspection, debugging, and automation.",
+  "description": "Chrome DevTools Protocol MCP server (chrome-devtools-mcp). Controls an external Chrome window outside DS Bot's sidebar.",
   "author": "ChromeDevTools",
   "category": "browser",
   "slot": "browser",
@@ -22,7 +22,7 @@
   "locales": {
     "zh": {
       "name": "Chrome DevTools MCP",
-      "description": "基于 Chrome DevTools 协议的浏览器 MCP 服务，支持调试、性能分析与页面操控。"
+      "description": "基于 Chrome DevTools 协议的浏览器 MCP 服务，操控外部 Chrome 窗口，不显示在 DS Bot 侧边栏。"
     }
   }
 }
