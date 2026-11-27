@@ -10,9 +10,8 @@ DS Bot 的 **插件面板（Plugins）** 默认拉取本仓库的 [`registry.jso
 
 | 插件 | 类型 | 槽位 | 说明 |
 |---|---|---|---|
-| **Ego Lite 浏览器**（`dsh:dsh-ego-browser`） | DSH 插件 | `browser` | 基于 Ego Lite 的外部 DSH 浏览器插件，支持人机共用 Chromium 会话。 |
-| **Playwright MCP**（`mcp:playwright-mcp`） | MCP 服务 | `browser` | 官方 Playwright MCP 服务（`@playwright/mcp`），基于可访问性树操控浏览器。 |
-| **Chrome DevTools MCP**（`mcp:chrome-devtools-mcp`） | MCP 服务 | `browser` | 基于 Chrome DevTools 协议的 MCP 服务（`chrome-devtools-mcp`），支持页面调试与操控。 |
+| **Playwright MCP**（`mcp:playwright-mcp`） | MCP 服务 | `browser` | 官方 Playwright MCP 服务（`@playwright/mcp`），在独立外部浏览器窗口运行，不显示在 DS Bot 侧边栏。 |
+| **Chrome DevTools MCP**（`mcp:chrome-devtools-mcp`） | MCP 服务 | `browser` | 基于 Chrome DevTools 协议的浏览器 MCP 服务（`chrome-devtools-mcp`），操控外部 Chrome 窗口，不显示在 DS Bot 侧边栏。 |
 
 *（DS Bot 本体另内置 4 个可替换浏览器后端：`builtin:readonly`、`builtin:refs`、`builtin:script`、`builtin:task`。）*
 

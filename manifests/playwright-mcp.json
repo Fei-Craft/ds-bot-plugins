@@ -1,7 +1,7 @@
 {
   "id": "mcp:playwright-mcp",
   "name": "Playwright MCP",
-  "description": "Official Playwright MCP server (@playwright/mcp) for structured accessibility-tree browser control.",
+  "description": "Official Playwright MCP server (@playwright/mcp). Runs in a separate browser window outside DS Bot's sidebar.",
   "author": "Microsoft",
   "category": "browser",
   "slot": "browser",
@@ -22,7 +22,7 @@
   "locales": {
     "zh": {
       "name": "Playwright MCP",
-      "description": "官方 Playwright MCP 服务（@playwright/mcp），基于可访问性树操控浏览器。"
+      "description": "官方 Playwright MCP 服务（@playwright/mcp），在独立外部浏览器窗口运行，不显示在 DS Bot 侧边栏。"
     }
   }
 }
